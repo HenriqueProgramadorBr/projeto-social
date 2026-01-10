@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@media screen and (max-width: 768px) {
+    section#telefone {
+        top: 50%;
+        left: 46%;
+    }
+}
 
 * {
     margin: 0px;
@@ -27,7 +33,7 @@ main {
 section#telefone {
     position: absolute;
     top: 50%;
-    left: 46%;
+    left: 50%;
     transform: translate(-50%, -50%);
 
     height: 627px;
